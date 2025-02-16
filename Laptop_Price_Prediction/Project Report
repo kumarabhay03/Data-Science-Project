@@ -17,10 +17,12 @@ Table of Content
 
 
 1. Problem Statement:
-Predicting the price of laptops based on their features is a critical aspect for both manufacturers and consumers. This project aims to bridge the gap between laptop specifications and their market prices, enabling better purchasing and pricing decisions.  
+Predicting the price of laptops based on their features is a critical aspect for both manufacturers and consumers. 
+This project aims to bridge the gap between laptop specifications and their market prices, enabling better purchasing and pricing decisions.  
 
 2. Project Objective:
-To build predictive models that estimate laptop prices based on various specifications, such as brand, processor type, RAM, storage, and other key attributes.  
+To build predictive models that estimate laptop prices based on various specifications, such as brand, processor type, RAM, storage,
+and other key attributes.  
 
 
 3. Data Description:
@@ -82,7 +84,10 @@ Actionable Insights
 
 
 10. Conclusion:
-The Laptop Price Prediction project successfully identified key factors influencing laptop prices. The **Random Forest Regression model** demonstrated better predictive power compared to Linear Regression, achieving an accuracy of **87.64%**. The insights derived from this project can assist manufacturers and retailers in pricing strategies and help customers make informed purchasing decisions.  
+The Laptop Price Prediction project successfully identified key factors influencing laptop prices. The **Random Forest Regression
+model** demonstrated better predictive power compared to Linear Regression, achieving an accuracy of **74.44%**.
+The insights derived from this project can assist manufacturers and retailers in pricing strategies and help customers make
+informed purchasing decisions.  
 
 
 11. References:
