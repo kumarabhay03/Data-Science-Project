@@ -1,0 +1,102 @@
+# Customer Churn Analysis – Neo Telecom
+
+## 📌 Project Overview  
+Customer churn is a critical problem for telecom companies. As a data scientist at **Neo Telecom**, the goal of this project is to analyze customer data, gain insights into churn patterns, and build predictive models to reduce customer attrition.  
+
+This project involves **data manipulation, visualization, and machine learning models** (Linear Regression, Logistic Regression, Decision Tree, and Random Forest) to analyze and predict customer churn.  
+
+---
+
+## 📂 Dataset Information  
+The dataset used in this project is **customer_churn.csv**, which contains customer details, contract information, payment methods, and churn status.  
+
+### 🔹 Data Dictionary  
+The dataset includes columns such as:  
+- **CustomerID** – Unique identifier for customers  
+- **Gender** – Male or Female  
+- **SeniorCitizen** – Whether the customer is a senior citizen (1 = Yes, 0 = No)  
+- **Tenure** – Duration of the customer's stay (in months)  
+- **InternetService** – Type of internet service (DSL, Fiber optic, or No)  
+- **Contract** – Customer’s contract type (Month-to-month, One year, Two years)  
+- **PaymentMethod** – Method used for payment (Electronic check, Mailed check, etc.)  
+- **MonthlyCharges** – Customer’s monthly bill  
+- **Churn** – Whether the customer has churned (Yes or No)  
+
+---
+
+## 🚀 Tasks Performed  
+
+### 1️⃣ Data Manipulation  
+✔ Extracted specific columns from the dataset  
+✔ Filtered data based on customer attributes  
+✔ Selected a random sample of 333 records  
+✔ Counted unique values in the **Churn** column  
+
+---
+
+### 2️⃣ Data Visualization  
+📊 **Bar Plot** – Distribution of Internet Services  
+📊 **Histogram** – Distribution of Customer Tenure  
+📊 **Scatter Plot** – Relationship between **Tenure** and **Monthly Charges**  
+📊 **Box Plot** – Comparison of **Tenure** across Contract Types  
+
+---
+
+### 3️⃣ Linear Regression  
+📈 **Objective:** Predict **MonthlyCharges** based on **Tenure**  
+✔ Split data (70% train, 30% test)  
+✔ Built a **Simple Linear Regression Model**  
+✔ Calculated **Root Mean Square Error (RMSE)**  
+
+---
+
+### 4️⃣ Logistic Regression  
+📈 **Objective:** Predict customer churn  
+✔ **Simple Logistic Regression** using **MonthlyCharges**  
+✔ **Multiple Logistic Regression** using **Tenure** & **MonthlyCharges**  
+✔ Evaluated performance using **Confusion Matrix & Accuracy Score**  
+
+---
+
+### 5️⃣ Decision Tree  
+📈 **Objective:** Classify whether a customer will churn based on **Tenure**  
+✔ Split dataset (80% train, 20% test)  
+✔ Built a **Decision Tree Classifier**  
+✔ Evaluated model using **Confusion Matrix & Accuracy Score**  
+
+---
+
+### 6️⃣ Random Forest  
+📈 **Objective:** Improve churn prediction using multiple decision trees  
+✔ Built a **Random Forest Classifier** with **Tenure & MonthlyCharges**  
+✔ Split dataset (70% train, 30% test)  
+✔ Evaluated model using **Confusion Matrix & Accuracy Score**  
+
+---
+
+## 🔧 Tech Stack  
+- **Python** 🐍  
+- **Pandas, NumPy** (Data Manipulation)  
+- **Matplotlib, Seaborn** (Visualization)  
+- **Scikit-learn** (Machine Learning)  
+- **Google Collab** (Development Environment)  
+
+---
+
+```
+
+---
+
+## 📢 Results & Insights  
+🔹 Senior male citizens using **electronic check payments** have a higher churn rate.  
+🔹 Customers with **tenure > 70 months** or **monthly charges > $100** are more likely to churn.  
+🔹 Customers with **two-year contracts** and **mailed check payments** churn less frequently.  
+🔹 **Random Forest** achieved the highest accuracy in churn prediction.  
+
+---
+
+## 💡 Future Improvements  
+🔹 Implement **Hyperparameter Tuning** for better model performance.  
+🔹 Explore **Deep Learning models** for churn prediction.  
+🔹 Deploy the model as a **web application** for real-time churn prediction.  
+
