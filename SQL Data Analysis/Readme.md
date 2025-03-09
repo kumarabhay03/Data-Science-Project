@@ -51,7 +51,7 @@ The repository is structured into different categories of SQL scripts to help us
    ```
 2. Navigate to the project directory:
    ```sh
-   cd sql-data-analytics-project
+   cd SQL Data Analysis
    ```
 3. Choose and open a SQL script relevant to your analysis.
 4. Run the script on your preferred SQL environment (e.g., PostgreSQL, MySQL, SQL Server, BigQuery).
