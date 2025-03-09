@@ -47,7 +47,7 @@ The repository is structured into different categories of SQL scripts to help us
 ## 🛠️ How to Use
 1. Clone the repository:
    ```sh
-   git clone https://github.com/y/sql-data-analytics-project.git
+   git clone https://github.com/kumarabhay03/Data-Science-Project
    ```
 2. Navigate to the project directory:
    ```sh
