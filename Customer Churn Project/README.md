@@ -141,7 +141,7 @@ The dataset contains **7,043 customer records** with **21 features**, including 
 ## 📞 Contact  
 
 👨‍💻 **Abhay Katiyar**  
-📧 Email: [support@intellipaat.com]kumarabhaykatiyar@gmail.com)  
+📧 Email: (kumarabhaykatiyar@gmail.com)  
 📌 GitHub: [GitHub Profile](https://github.com/kumarabhay03)  
 
 ---
